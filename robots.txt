@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://engreaved.github.io/tin-density/sitemap.xml
