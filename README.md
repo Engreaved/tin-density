@@ -1,30 +1,17 @@
 # Tin density: what the numbers actually are
 
-A single, sourced density table for tin in the forms a working chemist meets, assembled from 59
-records across 28 sources, with every disagreement between those sources recorded rather than
-averaged away.
+A single, sourced density table for tin in the forms a working chemist meets, assembled from 59 records across 28 sources, with every disagreement between those sources recorded rather than averaged away.
 
 ## The problem
 
-Ask five references for the density of tin and you get five answers. In this collection alone the
-white form appears as **7.265, 7.280, 7.289, 7.290, 7.300, 7.310 and 7.336** depending on the
-source, a spread of about 1 percent. That spread is not measurement noise:
+Ask five references for the density of tin and you get five answers. In this collection alone the white form appears as **7.265, 7.280, 7.289, 7.290, 7.300, 7.310 and 7.336** depending on the source, a spread of about 1 percent. That spread is not measurement noise:
 
-- **It is not temperature.** Converting every temperature-stated sample to 20 C removed only 2.1
-  percent of the variance. If the sources disagreed because they measured at different
-  temperatures, normalising would have collapsed most of it.
-- **It is partly rounding.** Sources publishing two decimals average 7.2944; those publishing
-  three average 7.2849, a 0.13 percent offset that tracks each publisher's precision rather than
-  the sample.
-- **It is partly duplication.** The 17 white-tin records contain only **8 distinct values**. Four
-  sources reporting 7.31 are close to one observation copied four times.
-- **It is partly conflation.** Grey tin (5.769) and white tin (7.287) are 21 percent apart, and
-  secondary sources mix them. Powder apparent density (3.2) is not a metal density at all. And
-  7.31 is also the density of **indium**, which appears on at least one supplier sheet filed
-  beside tin.
+- **It is not temperature.** Converting every temperature-stated sample to 20 C removed only 2.1 percent of the variance. If the sources disagreed because they measured at different temperatures, normalising would have collapsed most of it.
+- **It is partly rounding.** Sources publishing two decimals average 7.2944; those publishing three average 7.2849, a 0.13 percent offset that tracks each publisher's precision rather than the sample.
+- **It is partly duplication.** The 17 white-tin records contain only **8 distinct values**. Four sources reporting 7.31 are close to one observation copied four times.
+- **It is partly conflation.** Grey tin (5.769) and white tin (7.287) are 21 percent apart, and secondary sources mix them. Powder apparent density (3.2) is not a metal density at all. And 7.31 is also the density of **indium**, which appears on at least one supplier sheet filed beside tin.
 
-So the useful answer is not a single number pulled from a favourite handbook. It is a number, the
-form and temperature it belongs to, and the size of the disagreement behind it.
+So the useful answer is not a single number pulled from a favourite handbook. It is a number, the form and temperature it belongs to, and the size of the disagreement behind it.
 
 ## The answer
 
@@ -45,13 +32,9 @@ form and temperature it belongs to, and the size of the disagreement behind it.
 | gamma phase, high P | 1 | 7.525 | - | - | computed only |
 | delta phase, high P | 1 | 7.561 | - | - | computed only |
 
-Uncertainty is k=2, dominated by whether a temperature is quoted: plus or minus 0.014 g/cm3 with
-the temperature known to 5 K, 0.042 without one.
+Uncertainty is k=2, dominated by whether a temperature is quoted: plus or minus 0.014 g/cm3 with the temperature known to 5 K, 0.042 without one.
 
-**The strongest evidence is structural, not bibliographic.** Five X-ray unit cells for white tin
-give 7.2879 and 7.2885 g/cm3 from cell volume alone (rho = Z*M/(N_A*V)), reproducing the tabulated
-7.287 to four significant figures. The value is not a chain of compilers repeating each other; it
-is what the crystal requires.
+**The strongest evidence is structural, not bibliographic.** Five X-ray unit cells for white tin give 7.2879 and 7.2885 g/cm3 from cell volume alone (rho = Z*M/(N_A*V)), reproducing the tabulated 7.287 to four significant figures. The value is not a chain of compilers repeating each other; it is what the crystal requires.
 
 ## Sources
 
@@ -92,9 +75,7 @@ Every value traces to one of these. Records marked excluded are kept for audit.
 
 ## Composition cross-check
 
-Alloy values were tested against a rule of mixtures using element densities from the same CRC
-table (Pb 11.3, Ag 10.5, Cu 8.96, Sb 6.68). Deviations under about 0.5 percent sit inside the
-model's own error:
+Alloy values were tested against a rule of mixtures using element densities from the same CRC table (Pb 11.3, Ag 10.5, Cu 8.96, Sb 6.68). Deviations under about 0.5 percent sit inside the model's own error:
 
 | Alloy | Predicted | Measured | Deviation |
 |---|---|---|---|
@@ -110,19 +91,11 @@ model's own error:
 
 ## How this was built
 
-Samples were taken from handbooks, reference tables, government databases, manufacturer datasheets
-and two journal publications. Each record stores the source, the retrieval route, the quoted line,
-the crystal form or alloy, the value, the temperature where stated, and an evidence class.
+Samples were taken from handbooks, reference tables, government databases, manufacturer datasheets and two journal publications. Each record stores the source, the retrieval route, the quoted line, the crystal form or alloy, the value, the temperature where stated, and an evidence class.
 
-Filtration ran in five steps: unit normalisation; separation by crystal form and alloy, never
-pooled; median and MAD per form; robust z with exclusion above 3.5, keeping the excluded record
-and its reason; and evidence-class weighting where a group disagreed.
+Filtration ran in five steps: unit normalisation; separation by crystal form and alloy, never pooled; median and MAD per form; robust z with exclusion above 3.5, keeping the excluded record and its reason; and evidence-class weighting where a group disagreed.
 
-Three records are excluded: a supplier figure of 8.800 for Sn63Pb37 (robust z +12.8 against two
-independent 8.40 and 8.42 values), a DFT liquid value of 7.470 (a model reference density, not a
-measurement), and a powder range superseded by an ISO 3923/1 result. Two further documents were
-rejected before entry: one whose 7.31 belongs to indium rather than tin, and one giving a single
-figure for three different alloys.
+Three records are excluded: a supplier figure of 8.800 for Sn63Pb37 (robust z +12.8 against two independent 8.40 and 8.42 values), a DFT liquid value of 7.470 (a model reference density, not a measurement), and a powder range superseded by an ISO 3923/1 result. Two further documents were rejected before entry: one whose 7.31 belongs to indium rather than tin, and one giving a single figure for three different alloys.
 
 ## Limits
 
@@ -130,17 +103,13 @@ figure for three different alloys.
 - 12 of 59 records state a temperature; the rest are silent.
 - No measured high-pressure density. The gamma and delta phases appear only as computed values.
 - Single-crystal anisotropy is not covered.
-- The spread within a form is reported rather than hidden, so the table can be used to judge a
-  competing figure instead of replacing one authority with another.
+- The spread within a form is reported rather than hidden, so the table can be used to judge a competing figure instead of replacing one authority with another.
 
 ## Files
 
-- DATA/tin-density.csv - all 59 records with source, route, class, value, temperature and
-  exclusion reason.
+- DATA/tin-density.csv - all 59 records with source, route, class, value, temperature and exclusion reason.
 - CARD.md - the one-page version: four numbers and three traps.
 
 ## Licence and provenance
 
-Compiled 2026-11-27. Source values remain the property of their publishers; this compilation adds
-only the selection, normalisation and exclusion record. Reuse the compilation freely, cite the
-sources it points to.
+Compiled 2026-11-27. Source values remain the property of their publishers; this compilation adds only the selection, normalisation and exclusion record. Reuse the compilation freely, cite the sources it points to.
