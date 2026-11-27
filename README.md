@@ -1,3 +1,5 @@
+# Tin density: every source on one page, so you never search twice
+
 **The gap this fills.** Look up the density of tin and the sources do not agree. 7.265, 7.280, 7.287, 7.289, 7.290, 7.300, 7.310 and 7.336 are all published for the same metal. Some mix the grey and white allotropes, some quote powder bulk density as if it were the metal, one gives indium's value on a tin page. So you check a handbook, get a number, distrust it, check another, and the second disagrees with the first.
 
 This page gathers all of them: **75 records from 39 sources**, each with the line it was read from and a link to that page, so checking it takes one click instead of one afternoon.
