@@ -1,4 +1,20 @@
+# Served at https://engreaved.github.io/tin-density/robots.txt
+# The robots exclusion standard reads /robots.txt at the origin root. For this host that is
+# https://engreaved.github.io/robots.txt, which GitHub Pages answers 404 without a user site.
+# So this file is declarative: it documents intent and lets tools that fetch it by path see the
+# policy, but it does not govern crawling of the pages under /tin-density/.
+
 User-agent: *
+Allow: /
+
+# AI search crawlers, named so the intent is explicit rather than implied by the wildcard.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
 Allow: /
 
 Sitemap: https://engreaved.github.io/tin-density/sitemap.xml
