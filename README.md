@@ -23,11 +23,11 @@
 }
 </script>
 
-
 **The gap this fills.** Look up the density of tin and the sources do not agree. 7.265, 7.280, 7.287, 7.289, 7.290, 7.300, 7.310 and 7.336 are all published for the same metal. Some mix the grey and white allotropes, some quote powder bulk density as if it were the metal, one gives indium's value on a tin page. So you check a handbook, get a number, distrust it, check another, and the second disagrees with the first.
 
 This page gathers all of them: **75 records from 39 sources**, each with the line it was read from and a link to that page, so checking it takes one click instead of one afternoon.
 
+**Download:** [spreadsheet](DATA/tin-density.xlsx) | [CSV](DATA/tin-density.csv) | [one-page card](CARD.md)
 ## The short answer
 
 **Tin is 7.287 g/cm3** as white (beta) metal at 20 C, **5.769 g/cm3** as grey (alpha) tin, and **6.983 g/cm3** as a liquid at its melting point. Solders differ: Sn63Pb37 is 8.40, SAC305 is 7.40, pewter 7.28 g/cm3. Each figure below is the median of every source that states it, and each source is linked with the exact line it was read from.
@@ -141,8 +141,8 @@ Records S16, S19 and S26 carry an exclusion note and stay in the table, because 
 
 ## The spreadsheet
 
-- **DATA/tin-density.xlsx** has three sheets: 'At a glance' computed from the records, 'All records' with every row plus URL and quote, and 'Excluded'.
-- **DATA/tin-density.csv** is the same data as plain text.
+- **[DATA/tin-density.xlsx](DATA/tin-density.xlsx)** has three sheets: 'At a glance' computed from the records, 'All records' with every row plus URL and quote, and 'Excluded'.
+- **[DATA/tin-density.csv](DATA/tin-density.csv)** is the same data as plain text.
 
 To check any number: open 'All records', copy the quote, open the URL, search for it.
 

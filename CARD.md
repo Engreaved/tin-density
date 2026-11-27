@@ -1,6 +1,6 @@
 # Tin density: the card
 
-One page. Every number below is computed from `DATA/tin-density.csv`; the full table with the verbatim quote and link for each row is in the [README](README.md), and the workbook is `DATA/tin-density.xlsx`.
+One page. Every number below is computed from the [CSV](DATA/tin-density.csv); the full table with the verbatim quote and link for each row is in the [README](README.md), and the workbook is [DATA/tin-density.xlsx](DATA/tin-density.xlsx).
 
 ## The numbers that matter
 
@@ -29,8 +29,8 @@ One page. Every number below is computed from `DATA/tin-density.csv`; the full t
 | File | What it is |
 |---|---|
 | `README.md` | every record with its source, quote and link |
-| `DATA/tin-density.xlsx` | three sheets: at a glance, all records with filters, excluded |
-| `DATA/tin-density.csv` | the same rows as plain text |
+| [DATA/tin-density.xlsx](DATA/tin-density.xlsx) | three sheets: at a glance, all records with filters, excluded |
+| [DATA/tin-density.csv](DATA/tin-density.csv) | the same rows as plain text |
 
 ## Limits
 
