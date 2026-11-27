@@ -1,5 +1,3 @@
-# Tin density: every source on one page, so you never search twice
-
 **The gap this fills.** Look up the density of tin and the sources do not agree. 7.265, 7.280, 7.287, 7.289, 7.290, 7.300, 7.310 and 7.336 are all published for the same metal. Some mix the grey and white allotropes, some quote powder bulk density as if it were the metal, one gives indium's value on a tin page. So you check a handbook, get a number, distrust it, check another, and the second disagrees with the first.
 
 This page gathers all of them: **75 records from 39 sources**, each with the line it was read from and a link to that page, so checking it takes one click instead of one afternoon.
@@ -143,6 +141,7 @@ The strongest check is structural rather than bibliographic: five X-ray unit cel
 - **[The data folder](https://github.com/Engreaved/tin-density/tree/main/DATA)**: the workbook and the CSV side by side.
 - **[The source of this page](https://github.com/Engreaved/tin-density/blob/main/README.md)**: the same text you are reading, in markdown.
 - **[The one-page card](https://engreaved.github.io/tin-density/CARD.html)**: the numbers without the 75-row table.
+- **[Precision tiers](https://engreaved.github.io/tin-density/precision-tiers.html)**: every record scored by the digits its source states and whether it states a temperature. The best eight reach 0.008 percent; none reaches 0.001 percent.
 
 Each source row links to the page it was read from, so a value can be checked without trusting this compilation or the repository behind it.
 
