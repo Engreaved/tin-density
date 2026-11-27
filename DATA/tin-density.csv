@@ -20,6 +20,7 @@ S28,beta (white),7.28,,government db,PubChem,https://pubchem.ncbi.nlm.nih.gov/re
 S05,beta (white),7.265,19.95,,pse-info.de,https://pse-info.de/en/element/Sn,direct,,beta 7.265 g cm-3 (293.1 K)
 S29,beta (white),7.265,,government db,PubChem,https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5352426/JSON,PUG-View JSON [white/gray],,7.265 (white); 5.769 (gray)
 S37,beta (white),7.265,20,encyclopaedia,de.wikipedia Zinn (archived),https://de.wikipedia.org/wiki/Zinn,wayback mobile,,"7,265 g/cm3 (20 C) (beta-Zinn)"
+S61,beta (white),7.265,,encyclopaedia,chemeurope encyclopedia,https://www.chemeurope.com/en/encyclopedia/Tin_%28element%29.html,"direct html, Physical properties block",,Density (near r.t.) (white) 7.265 g·cm 3
 S57,beta (white),7.2546,,computed from XRD cell,COD (Crystallography Open Database),https://www.crystallography.net/cod/result?formula=Sn&format=json,"direct API, COD entry 7222460",,"COD 7222460: a=5.8393 c=3.1876 V=108.689 A3, Z=4, sg I 41/a m d :1"
 S59,alpha (grey),5.8316,,computed from XRD cell,COD (Crystallography Open Database),https://www.crystallography.net/cod/result?formula=Sn&format=json,"direct API, COD entry 7222459",,"COD 7222459: a=6.467 c=6.4665284 V=270.42 A3, Z=8, sg F d -3 m :1"
 S31,alpha (grey),5.77,,manufacturer,Indium Corp Tin Metal PDS,https://www.indium.com/wp-content/uploads/2025/03/Commercial-Tin-Metal-PDS-98803-A4-R0-1.pdf,direct pdf,,Density 5.77g/cm3 alpha tin
@@ -27,11 +28,14 @@ S04,alpha (grey),5.769,19.95,,pse-info.de,https://pse-info.de/en/element/Sn,dire
 S21,alpha (grey),5.769,,primary table,CRC Handbook (icdst copy),https://dl.icdst.org/pdfs/files/415f61e9082c7d23df09fb15605aa59d.pdf,"direct pdf, table row 2879",,2879 Tin (gray) Sn ... 5.769
 S30,alpha (grey),5.769,25,government db,PubChem,https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5352426/JSON,PUG-View JSON [grey @25 C],,PubChem density records ... 5.769 @25 C
 S36,alpha (grey),5.769,20,encyclopaedia,de.wikipedia Zinn (archived),https://de.wikipedia.org/wiki/Zinn,wayback mobile,,"Dichte 5,769 g/cm3 (20 C) (alpha-Zinn)"
+S60,alpha (grey),5.769,,encyclopaedia,chemeurope encyclopedia,https://www.chemeurope.com/en/encyclopedia/Tin_%28element%29.html,"direct html, Physical properties block",,Density (near r.t.) (gray) 5.769 g·cm 3
 S58,alpha (grey),5.7657,,computed from XRD cell,COD (Crystallography Open Database),https://www.crystallography.net/cod/result?formula=Sn&format=json,"direct API, COD entry 9008568",,"COD 9008568: a=6.4912 c=6.4912 V=273.511 A3, Z=8, sg F d -3 m :1"
 S09,alpha (grey),5.75,,,Encyclopaedia Britannica,https://www.britannica.com/science/tin,wayback 2024,,gray 5.75 grams/cm3
 S14,alpha (grey),5.75,,,ChemicalBook,https://www.chemicalbook.com/ChemicalProductProperty_EN_CB3190047.htm,direct,,5.75 g/cm3 (gray)
 S26,liquid,7.47,,computed DFT / paper reference,"Phys Rev B 103, 184102 (2021)",https://doi.org/10.1103/PhysRevB.103.184102,"OA pdf, Table II","DFT model reference, not a measurement",liquid (7.470) rho0 g/cm3
 S03,liquid,6.99,232,,periodictable.com (Theodore Gray),https://periodictable.com/Elements/050/data.html,direct,,Density (Liquid) 6.99
+S62,liquid,6.99,231.93,encyclopaedia,chemeurope encyclopedia,https://www.chemeurope.com/en/encyclopedia/Tin_%28element%29.html,"direct html, Physical properties block",,Liquid density at m.p. 6.99 g·cm 3
+S63,liquid,6.99,,secondary table,schoolmykids periodic table,https://www.schoolmykids.com/learn/periodic-table/density-liquid-of-all-the-elements,"direct html, liquid density table",,50 Sn Tin 6.99
 S52,liquid,6.983,231.9,primary measurement,"Wang et al, J Phys Condens Matter 2003",https://doi.org/10.1088/0953-8984/15/6/304,"doi landing, abstract",,densities at the melting point for liquid ... Sn ... 6.983 x 10^3 kg m-3
 S15,liquid,6.97,,,ChemicalBook,https://www.chemicalbook.com/ChemicalProductProperty_EN_CB3190047.htm,direct,,"6.97 g/cm3 (liquid, truncated in page text)"
 S33,liquid,6.97,231.9,manufacturer,Indium Corp Tin Metal PDS,https://www.indium.com/wp-content/uploads/2025/03/Commercial-Tin-Metal-PDS-98803-A4-R0-1.pdf,direct pdf,,6.97g/cm3 liquid at mp
@@ -40,16 +44,28 @@ S20,alloy Sn63Pb37,8.42,,,Qualitek SN63 RMA200 TDS,https://qualitek.com/SN63_RMA
 S39,alloy Sn63Pb37,8.42,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)",http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MECANIQUE/MATERIAUX/Crc%20Materials%20Science%20And%20Engineering%20Handbook-1928S.pdf,"direct pdf, table 33",,Soft solder (37% Pb) 8.42
 S12,alloy Sn63Pb37,8.4,26,,MG Chemicals TDS 4860,http://www.mgchemicals.com/downloads/tds/tds-4860.pdf,direct pdf,,Density @26 C [78 F] 8.40 g/cm3
 S35,alloy Sn63Pb37,8.4,,manufacturer,SMD Sn100C datasheet,https://smd-bg.com/pdf/Solder_SN100C_SN100Ce_engl.pdf,direct pdf,,"Density g/cm3 7,4 | 8,4 (Sn63 comparison column)"
+S64,alloy Sn63Pb37,8.4,,manufacturer,Array Solders TDS 63Sn37Pb,https://arraysolders.com/wp-content/uploads/2023/06/TDS-63sn37pb.pdf,direct pdf,,Density: 8.4 g/cm³
+S65,alloy Sn63Pb37,8.4,,manufacturer,Microsolder TDS Sn60/Sn63,https://microsolder.hu/doc/8/TDS_Sn60-Sn63_EN.pdf,"direct pdf, general properties table",,Density: ... Sn63Pb37 8.4 g/cm3
+S74,alloy Sn63Pb37,8.4,,manufacturer,FCT Solder SN100C TDS,https://fctamexico.mx/wp-content/uploads/2022/04/SN100C-Solder-Alloys-TDS.pdf,"direct pdf, comparison table",,Specific Gravity 7.5 7.4 8.4
+S67,alloy Sn63Pb37,8.34,,manufacturer,Nathan Trotter Sn63Pb37 bar,https://nathantrotter.com/wp-content/uploads/2020/06/NT-Sn63Pb37-Solder-Bar.pdf,direct pdf,,Specific Gravity (g/m³) 8.34
+S66,alloy Sn60Pb40,8.5,,manufacturer,Microsolder TDS Sn60/Sn63,https://microsolder.hu/doc/8/TDS_Sn60-Sn63_EN.pdf,"direct pdf, general properties table",,Density: Sn60Pb40 8.5 g/cm3
+S68,alloy Sn60Pb40,8.43,,manufacturer,Lucas-Milhaupt TDS 60/40,https://www.lucasmilhaupt.com/Lucas/Technical-Documents1/60_40TDS2018English.pdf,direct pdf,,Specific Gravity 8.43
 S41,alloy Sn70Pb30,8.32,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)",http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MECANIQUE/MATERIAUX/Crc%20Materials%20Science%20And%20Engineering%20Handbook-1928S.pdf,"direct pdf, table 33",,Soft solder (30% Pb) 8.32
+S72,alloy SAC305,7.5,,manufacturer,FCT Solder SN100C TDS,https://fctamexico.mx/wp-content/uploads/2022/04/SN100C-Solder-Alloys-TDS.pdf,"direct pdf, comparison table",,Specific Gravity 7.5 7.4 8.4
 S11,alloy SAC305,7.49,26,,MG Chemicals TDS 4925,http://www.mgchemicals.com/downloads/tds/tds-4925.pdf,direct pdf,,Density @26 C [78 F] 7.49 g/cm3
 S51,alloy SAC305,7.4,,manufacturer,Krayden LINQ-CC SAC305,https://www.krayden.com/products/linq-cc-sac305,direct html,,Type A metallic element type SAC305 Density (g) 7.4 g/cm3
+S69,alloy SAC305,7.4,,manufacturer,Array Solders TDS SAC305,https://arraysolders.com/wp-content/uploads/2023/06/TDS-for-Sac305.pdf,direct pdf,,Density: 7.4 g/cm³
+S70,alloy SAC305,7.4,,manufacturer,Nathan Trotter SAC305 bar,https://nathantrotter.com/wp-content/uploads/2020/06/NT-SAC305-Solder-Bar.pdf,direct pdf,,Specific Gravity (g/m³) 7.40
 S18,alloy SAC305,7.37,,,Kester SAC305 TDS,https://www.kester.com/downloads?Command=Core_Download&EntryId=61810,direct pdf,,Density 7.37 g/cm3
 S34,alloy Sn100C,7.4,,manufacturer,SMD Sn100C datasheet,https://smd-bg.com/pdf/Solder_SN100C_SN100Ce_engl.pdf,direct pdf,,"Density g/cm3 7,4"
+S71,alloy Sn100C,7.4,,manufacturer,Stannol TDS SN100C,https://microsolder.hu/en/doc/8/TDS_SN100C_EN.pdf,"direct pdf, hosted by Microsolder, document branded Stannol",,"Density, g/cm : 3 ... 7.4"
+S73,alloy Sn100C,7.4,,manufacturer,FCT Solder SN100C TDS,https://fctamexico.mx/wp-content/uploads/2022/04/SN100C-Solder-Alloys-TDS.pdf,"direct pdf, comparison table",,Specific Gravity 7.5 7.4 8.4
 S50,alloy Sn96.5Ag3.5,7.36,,manufacturer,Superior Flux SnAg TDS,https://superiorflux.com/spec/TDS.AFCW.SnAg.pdf,direct pdf,,Solder Density 7.36 g/cm3
 S40,pewter,7.28,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)",http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MECANIQUE/MATERIAUX/Crc%20Materials%20Science%20And%20Engineering%20Handbook-1928S.pdf,"direct pdf, table 33",,Density of Tin and Tin Alloys (Table 33) ... White metal 7.28 | Pewter 7.28
 S47,white metal,7.28,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)",http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MECANIQUE/MATERIAUX/Crc%20Materials%20Science%20And%20Engineering%20Handbook-1928S.pdf,"direct pdf, table 33",,White metal 7.28
 S42,babbitt grade 1,7.34,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)",http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MECANIQUE/MATERIAUX/Crc%20Materials%20Science%20And%20Engineering%20Handbook-1928S.pdf,"direct pdf, table 33",,"Tin babbitt, Alloy 1 7.34"
 S43,babbitt grade 2,7.39,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)",http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MECANIQUE/MATERIAUX/Crc%20Materials%20Science%20And%20Engineering%20Handbook-1928S.pdf,"direct pdf, table 33",,"Tin babbitt, Alloy 2 7.39"
+S75,babbitt grade 2,7.39,,manufacturer,Nathan Trotter Grade 2 Babbitt,https://nathantrotter.com/wp-content/uploads/2020/09/Grade-2-Babbitt-Data.pdf,direct pdf,,Specific Gravity (g/m³) - 7.39
 S44,babbitt grade 3,7.46,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)",http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MECANIQUE/MATERIAUX/Crc%20Materials%20Science%20And%20Engineering%20Handbook-1928S.pdf,"direct pdf, table 33",,"Tin babbitt, Alloy 3 7.46"
 S45,babbitt grade 4,7.53,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)",http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MECANIQUE/MATERIAUX/Crc%20Materials%20Science%20And%20Engineering%20Handbook-1928S.pdf,"direct pdf, table 33",,"Tin babbitt, Alloy 4 7.53"
 S46,babbitt grade S,7.75,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)",http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MECANIQUE/MATERIAUX/Crc%20Materials%20Science%20And%20Engineering%20Handbook-1928S.pdf,"direct pdf, table 33",,"Tin babbitt, Alloy S 7.75"

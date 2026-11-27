@@ -1,30 +1,37 @@
 # Tin density: the card
 
-One page. For the full sheet see `TIN-DENSITY-FINAL.md`; machine-readable rows in `database.csv`.
+One page. Every number below is computed from `DATA/tin-density.csv`; the full table with the verbatim quote and link for each row is in the [README](README.md), and the workbook is `DATA/tin-density.xlsx`.
 
-## The four numbers
+## The numbers that matter
 
-| Use | Density | How sure |
+| Use | Density (g/cm3) | Basis |
 |---|---|---|
-| **White tin (beta), 20 C** | **7.287 g/cm3** | 8 distinct values from 17 sources, +/- 0.014 if you state the temperature |
-| **Grey tin (alpha), 20 C** | **5.769 g/cm3** | 7 sources, temperature stated by two of them |
-| **Liquid at melting** | **6.99 g/cm3** | 3 sources, +/- 0.02, measurement just above mp |
-| **Sn63Pb37 solder** | **8.41 g/cm3** | 4 sources, median; ASM table 8.42, mixtures agree to 0.4% |
+| **White tin (beta), 20 C** | **7.287** | 18 records from 17 sources, range 7.265 to 7.336; +/- 0.014 at k=2 with the temperature stated, +/- 0.042 without |
+| **Grey tin (alpha), 20 C** | **5.769** | 8 records from 8 sources, range 5.750 to 5.770 |
+| **Liquid at melting** | **6.983** | 6 sources, primary measurement at 0.05 percent; median 6.9865 |
+| **Sn63Pb37 solder** | **8.40** | 8 sources, range 8.340 to 8.420, three distinct values |
+| **SAC305** | **7.40** | 6 sources; two of them give 7.49 and 7.50, and a rule of mixtures predicts 7.361 |
+| **Sn100C** | 7.40 | 3 sources, all agreeing |
+| **Sn96.5Ag3.5** | 7.36 | one maker; mixtures give 7.366 |
+| **Pewter, white metal** | 7.28 | one ASM table each |
+| **Tin babbitt, grades 1 to S** | 7.34 to 7.75 | 6 records, two publishers |
+| **Tin powder, apparent** | 3.2 to 3.8 | bulk powder, not the metal density |
 
-Lead-free solders sit at 7.36 to 7.40 (Sn96.5Ag3.5 7.36, SAC305 7.37, Sn100C 7.40). Pewter 7.28. Tin babbitt 7.34 to 7.75 by grade.
+## What to watch for
 
-## Three traps
+- **SAC305 does not agree with itself.** Four sources sit at 7.370 to 7.400, two at 7.490 and 7.500, and the mixtures prediction of 7.361 follows the four. The 7.40 quoted here is that cluster, not an average of all six.
+- **Grey and white tin are different metals for density purposes.** 5.769 against 7.287 is a 21 percent gap; anything that quotes one as the other is wrong.
+- **Powder apparent density is not a material constant.** It depends on the measurement method, so it is listed and kept out of the metal values.
+- **Every record keeps its quote.** No value in this table is here without a line of text on a page that says it.
 
-**7.31 is not a second value.** It is 7.287 rounded to three figures. The 0.32% step would need 47 K of thermal expansion; it is a rounding artefact, not a temperature effect.
+## Files
 
-**Powder is not metal.** Apparent density 3.2 to 3.8 g/cm3 (ISO 3923/1) is bulk powder with air between the grains. Substituting it for metal density is an error of more than half.
+| File | What it is |
+|---|---|
+| `README.md` | every record with its source, quote and link |
+| `DATA/tin-density.xlsx` | three sheets: at a glance, all records with filters, excluded |
+| `DATA/tin-density.csv` | the same rows as plain text |
 
-**7.31 g/cm3 is also the density of indium.** One supplier document in this survey carried that number for indium metal on a tin-adjacent sheet. Check the element, not just the number.
+## Limits
 
-## Which form
-
-Mass and volume of a solid tin part at room temperature: use 7.287. If the part has been cold for a long time below 13.2 C and may have transformed, use 5.769, and remember the transformation is slow and volume-increasing. Melting or casting calculations: use 6.99 above the melting point.
-
-## How this was built
-
-51 samples from 31 sources: handbooks, reference tables, government databases, manufacturer datasheets, one journal paper. Median and MAD per crystal form, robust z as the exclusion test, three records excluded with reasons kept. Composition cross-checks on six alloys. No certified reference material was available, so these are nominal values, not certified ones.
+No certified reference material; these are nominal values. Only 15 of 75 records state a temperature. No measured high-pressure density. Six of eight categories fall short of ten independent sources, and that shortfall is stated rather than filled.
