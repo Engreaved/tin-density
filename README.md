@@ -160,6 +160,15 @@ The strongest check is structural rather than bibliographic: five X-ray unit cel
 - Robust z is undefined where more than half the values are identical; Sn63Pb37 and grey tin have a MAD of zero, so their spread is reported as distinct values instead.
 - Babbitt, pewter and powder are thin: one or two publishers each, and no sweep has yet exhausted their supply chains.
 
+## Where this lives
+
+- **[The repository](https://github.com/Engreaved/tin-density)**: every file, the commit history, and the issues page if you find an error in a row.
+- **[The data folder](https://github.com/Engreaved/tin-density/tree/main/DATA)**: the workbook and the CSV side by side.
+- **[The source of this page](https://github.com/Engreaved/tin-density/blob/main/README.md)**: the same text you are reading, in markdown.
+- **[The one-page card](https://engreaved.github.io/tin-density/CARD.html)**: the numbers without the 75-row table.
+
+Each source row links to the page it was read from, so a value can be checked without trusting this compilation or the repository behind it.
+
 ## Licence
 
 Source values remain the property of their publishers; this compilation adds the selection, the normalisation and the exclusion record. Reuse it freely, cite the sources it points to.
