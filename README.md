@@ -30,6 +30,19 @@ Uncertainty on the headline value is k=2: **7.287 +/- 0.014 g/cm3** with the tem
 
 **SAC305 does not agree with itself.** Four sources give 7.37 to 7.40, two give 7.49 and 7.50, and a rule of mixtures from the element densities predicts 7.361. The quoted 7.40 sides with the four and the mixture; the two high readings are named rather than averaged in.
 
+## How precise is any of this
+
+Every record is scored on two limits: how many digits its source states, and whether it states a temperature. Half of the last digit is the quantisation error; an unstated temperature costs 0.0069 percent per kelvin, so +/-10 K costs 0.069 percent.
+
+| Tier | Records | Ceiling |
+|---|---|---|
+| A | 8 | 0.007 to 0.009 percent |
+| B | 35 | about 0.1 percent |
+| C | 19 | two or three digits, or no temperature |
+| X | 10 | computed from structure or theory |
+
+**Nothing reaches 0.001 percent.** The best eight records sit at 0.007 to 0.009 percent, and the floor is the sources stating four digits, not this analysis. At 0.001 percent this page can tell you which published value to trust; it cannot supply the number. The full scoring, with the error model written out, is on the [precision tiers page](precision-tiers.html).
+
 ## Every record, with the quote it came from
 
 The quote column is the literal string read on the page. Search it in the linked document and it lands on the number.
