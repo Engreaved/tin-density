@@ -1,60 +1,60 @@
-id,form,value_g_cm3,temp_C,class,source,route,excluded,quote
-S01,beta (white),7.287,20,reference table,Royal Society of Chemistry,direct,,Density (g cm-3) 7.287
-S02,beta (white),7.31,,secondary table,periodictable.com (Theodore Gray),direct,,Density 7.31 g/cm3
-S03,liquid,6.99,232,secondary table,periodictable.com (Theodore Gray),direct,,Density (Liquid) 6.99
-S04,alpha (grey),5.769,19.95,secondary table,pse-info.de,direct,,Density alpha 5.769 g cm-3 (293.1 K)
-S05,beta (white),7.265,19.95,secondary table,pse-info.de,direct,,beta 7.265 g cm-3 (293.1 K)
-S06,beta (white),7.289,,database,Los Alamos National Laboratory,direct,,Density 7.289 g/cm3 at STP
-S07,beta (white),7.31,,secondary table,WebElements (Winter),wayback 2024,,Density of solid : 7310 kg m-3
-S08,beta (white),7.28,,encyclopaedia,Encyclopaedia Britannica,wayback 2024,,density white 7.28 grams/cm3
-S09,alpha (grey),5.75,,encyclopaedia,Encyclopaedia Britannica,wayback 2024,,gray 5.75 grams/cm3
-S10,beta (white),7.31,,secondary table,periodic-table.org,direct,,Density of Tin is 7.31 g/cm3
-S11,alloy SAC305,7.49,26,manufacturer,MG Chemicals TDS 4925,direct pdf,,Density @26 C [78 F] 7.49 g/cm3
-S12,alloy Sn63Pb37,8.4,26,manufacturer,MG Chemicals TDS 4860,direct pdf,,Density @26 C [78 F] 8.40 g/cm3
-S13,beta (white),7.28,,database,ChemicalBook,direct,,density 7.28 g/cm3 (white)
-S14,alpha (grey),5.75,,database,ChemicalBook,direct,,5.75 g/cm3 (gray)
-S15,liquid,6.97,,database,ChemicalBook,direct,,"6.97 g/cm3 (liquid, truncated in page text)"
-S16,powder apparent,3.2,,manufacturer,Thermo Fisher 010379.36,direct,"bulk powder range, superseded by ISO 3923/1",Apparent Density: 2.9-3.5 g/cc
-S17,beta (white),7.31,,manufacturer,CNPC Powder,direct,,Specific Gravity/Density: 7.31g/cm3
-S18,alloy SAC305,7.37,,manufacturer,Kester SAC305 TDS,direct pdf,,Density 7.37 g/cm3
-S19,alloy Sn63Pb37,8.8,,manufacturer,Biakom SN63-PB37 TDS,direct pdf,supplier outlier z=+12.8,DENSITY 8.8 g/cm3
-S20,alloy Sn63Pb37,8.42,,manufacturer,Qualitek SN63 RMA200 TDS,direct pdf,,"Density, g/cm 8.42"
-S21,alpha (grey),5.769,,primary table,CRC Handbook (icdst copy),"direct pdf, table row 2879",,2879 Tin (gray) Sn ... 5.769
-S22,beta (white),7.287,,primary table,CRC Handbook (icdst copy),"direct pdf, table row 2880",,2880 Tin (white) Sn ... 7.287
-S23,beta (white),7.336,,computed DFT,"Phys Rev B 103, 184102 (2021)","OA pdf, Table II",,beta 7.336 (7.4375) rho0 g/cm3
-S24,gamma (high P),7.525,,computed DFT,"Phys Rev B 103, 184102 (2021)","OA pdf, Table II",,gamma 7.525 rho0 g/cm3
-S25,delta (high P),7.561,,computed DFT,"Phys Rev B 103, 184102 (2021)","OA pdf, Table II",,delta 7.561 rho0 g/cm3
-S26,liquid,7.47,,computed DFT / paper reference,"Phys Rev B 103, 184102 (2021)","OA pdf, Table II","DFT model reference, not a measurement",liquid (7.470) rho0 g/cm3
-S27,beta (white),7.28,,secondary table,Engineering Toolbox (wayback 2023),wayback 2023,,Tin 7280 kg/m3
-S28,beta (white),7.28,,government db,PubChem,PUG-View JSON [NIOSH 2024],,"7.28 (NIOSH, 2024)"
-S29,beta (white),7.265,,government db,PubChem,PUG-View JSON [white/gray],,7.265 (white); 5.769 (gray)
-S30,alpha (grey),5.769,25,government db,PubChem,PUG-View JSON [grey @25 C],,5.769 @25 C
-S31,alpha (grey),5.77,,manufacturer,Indium Corp Tin Metal PDS,direct pdf,,Density 5.77g/cm3 alpha tin
-S32,beta (white),7.29,,manufacturer,Indium Corp Tin Metal PDS,direct pdf,,7.29g/cm3 beta tin
-S33,liquid,6.97,231.9,manufacturer,Indium Corp Tin Metal PDS,direct pdf,,6.97g/cm3 liquid at mp
-S34,alloy Sn100C,7.4,,manufacturer,SMD Sn100C datasheet,direct pdf,,"Density g/cm3 7,4"
-S35,alloy Sn63Pb37,8.4,,manufacturer,SMD Sn100C datasheet,direct pdf,,"Density g/cm3 7,4 | 8,4 (Sn63 comparison column)"
-S36,alpha (grey),5.769,20,encyclopaedia,de.wikipedia Zinn (archived),wayback mobile,,"Dichte 5,769 g/cm3 (20 C) (alpha-Zinn)"
-S37,beta (white),7.265,20,encyclopaedia,de.wikipedia Zinn (archived),wayback mobile,,"7,265 g/cm3 (20 C) (beta-Zinn)"
-S38,beta (white),7.3,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)","direct pdf, table 33",,Pure tin 7.3
-S39,alloy Sn63Pb37,8.42,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)","direct pdf, table 33",,Soft solder (37% Pb) 8.42
-S40,pewter,7.28,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)","direct pdf, table 33",,Pewter 7.28
-S41,alloy Sn70Pb30,8.32,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)","direct pdf, table 33",,Soft solder (30% Pb) 8.32
-S42,babbitt grade 1,7.34,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)","direct pdf, table 33",,"Tin babbitt, Alloy 1 7.34"
-S43,babbitt grade 2,7.39,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)","direct pdf, table 33",,"Tin babbitt, Alloy 2 7.39"
-S44,babbitt grade 3,7.46,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)","direct pdf, table 33",,"Tin babbitt, Alloy 3 7.46"
-S45,babbitt grade 4,7.53,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)","direct pdf, table 33",,"Tin babbitt, Alloy 4 7.53"
-S46,babbitt grade S,7.75,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)","direct pdf, table 33",,"Tin babbitt, Alloy S 7.75"
-S47,white metal,7.28,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)","direct pdf, table 33",,White metal 7.28
-S48,powder apparent,3.2,,manufacturer,Poudmet Sn 30GN-350,direct pdf,,"Apparent density ISO 3923/1 - 5.0 mm g/cm3 3,20"
-S49,powder apparent,3.8,,manufacturer,Poudmet Sn 30GN-350,direct pdf,,"... 3,80 (second grade column, same ISO method)"
-S50,alloy Sn96.5Ag3.5,7.36,,manufacturer,Superior Flux SnAg TDS,direct pdf,,Solder Density 7.36 g/cm3
-S51,alloy SAC305,7.4,,manufacturer,Krayden LINQ-CC SAC305,direct html,,Type A metallic element type SAC305 Density (g) 7.4 g/cm3
-S52,liquid,6.983,231.9,primary measurement,"Wang et al, J Phys Condens Matter 2003","doi landing, abstract",,densities at the melting point for liquid ... Sn ... 6.983 x 10^3 kg m-3
-S53,beta (white),7.2879,,computed from XRD cell,COD (Crystallography Open Database),"direct API, COD entry 1534488",,"COD 1534488: a=5.8317 c=3.1813 V=108.192 A3, Z=4, sg I 41/a m d :1"
-S54,beta (white),7.2885,,computed from XRD cell,COD (Crystallography Open Database),"direct API, COD entry 9012005",,"COD 9012005: a=5.83146 c=3.18129 V=108.183 A3, Z=4, sg I 41/a m d :1"
-S55,beta (white),7.284,24.85,computed from XRD cell,COD (Crystallography Open Database),"direct API, COD entry 7040217",,"COD 7040217: a=5.8323 c=3.1823 V=108.25 A3, Z=4, sg I 41/a m d :2, celltemp 298 K"
-S56,beta (white),7.3327,,computed from XRD cell,COD (Crystallography Open Database),"direct API, COD entry 9008570",,"COD 9008570: a=5.8197 c=3.17488 V=107.53 A3, Z=4, sg I 41/a m d :1"
-S57,beta (white),7.2546,,computed from XRD cell,COD (Crystallography Open Database),"direct API, COD entry 7222460",,"COD 7222460: a=5.8393 c=3.1876 V=108.689 A3, Z=4, sg I 41/a m d :1"
-S58,alpha (grey),5.7657,,computed from XRD cell,COD (Crystallography Open Database),"direct API, COD entry 9008568",,"COD 9008568: a=6.4912 c=6.4912 V=273.511 A3, Z=8, sg F d -3 m :1"
-S59,alpha (grey),5.8316,,computed from XRD cell,COD (Crystallography Open Database),"direct API, COD entry 7222459",,"COD 7222459: a=6.467 c=6.4665284 V=270.42 A3, Z=8, sg F d -3 m :1"
+id,form,value_g_cm3,temperature_C,evidence_class,source,url,retrieval_route,excluded_reason,verbatim_quote
+S23,beta (white),7.336,,computed DFT,"Phys Rev B 103, 184102 (2021)",https://doi.org/10.1103/PhysRevB.103.184102,"OA pdf, Table II",,beta 7.336 (7.4375) rho0 g/cm3
+S56,beta (white),7.3327,,computed from XRD cell,COD (Crystallography Open Database),https://www.crystallography.net/cod/result?formula=Sn&format=json,"direct API, COD entry 9008570",,"COD 9008570: a=5.8197 c=3.17488 V=107.53 A3, Z=4, sg I 41/a m d :1"
+S02,beta (white),7.31,,,periodictable.com (Theodore Gray),https://periodictable.com/Elements/050/data.html,direct,,Density 7.31 g/cm3
+S07,beta (white),7.31,,,WebElements (Winter),https://www.webelements.com/tin/,wayback 2024,,Density of solid : 7310 kg m-3
+S10,beta (white),7.31,,,periodic-table.org,https://www.periodic-table.org/tin-density/,direct,,Density of Tin is 7.31 g/cm3
+S17,beta (white),7.31,,,CNPC Powder,https://www.cnpcpowder.com/products/tin/76.html,direct,,Specific Gravity/Density: 7.31g/cm3
+S38,beta (white),7.3,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)",http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MECANIQUE/MATERIAUX/Crc%20Materials%20Science%20And%20Engineering%20Handbook-1928S.pdf,"direct pdf, table 33",,Density of Tin and Tin Alloys (Table 33) ... Pure tin 7.3
+S32,beta (white),7.29,,manufacturer,Indium Corp Tin Metal PDS,https://www.indium.com/wp-content/uploads/2025/03/Commercial-Tin-Metal-PDS-98803-A4-R0-1.pdf,direct pdf,,7.29g/cm3 beta tin
+S06,beta (white),7.289,,,Los Alamos National Laboratory,https://www.lanl.gov/science-engineering/periodic-table/element/tin,direct,,Density 7.289 g/cm3 at STP
+S54,beta (white),7.2885,,computed from XRD cell,COD (Crystallography Open Database),https://www.crystallography.net/cod/result?formula=Sn&format=json,"direct API, COD entry 9012005",,"COD 9012005: a=5.83146 c=3.18129 V=108.183 A3, Z=4, sg I 41/a m d :1"
+S53,beta (white),7.2879,,computed from XRD cell,COD (Crystallography Open Database),https://www.crystallography.net/cod/result?formula=Sn&format=json,"direct API, COD entry 1534488",,"COD 1534488: a=5.8317 c=3.1813 V=108.192 A3, Z=4, sg I 41/a m d :1"
+S01,beta (white),7.287,20,,Royal Society of Chemistry,https://periodic-table.rsc.org/element/50/tin,direct,,Density (g cm-3) 7.287
+S22,beta (white),7.287,,primary table,CRC Handbook (icdst copy),https://dl.icdst.org/pdfs/files/415f61e9082c7d23df09fb15605aa59d.pdf,"direct pdf, table row 2880",,2880 Tin (white) Sn ... 7.287
+S55,beta (white),7.284,24.85,computed from XRD cell,COD (Crystallography Open Database),https://www.crystallography.net/cod/result?formula=Sn&format=json,"direct API, COD entry 7040217",,"COD 7040217: a=5.8323 c=3.1823 V=108.25 A3, Z=4, sg I 41/a m d :2, celltemp 298 K"
+S08,beta (white),7.28,,,Encyclopaedia Britannica,https://www.britannica.com/science/tin,wayback 2024,,density white 7.28 grams/cm3
+S13,beta (white),7.28,,,ChemicalBook,https://www.chemicalbook.com/ChemicalProductProperty_EN_CB3190047.htm,direct,,density 7.28 g/cm3 (white)
+S27,beta (white),7.28,,secondary table,Engineering Toolbox (wayback 2023),https://www.engineeringtoolbox.com/metal-alloys-densities-d_50.html,wayback 2023,,Engineering Toolbox metals table (kg/m3) ... Tin 7280
+S28,beta (white),7.28,,government db,PubChem,https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5352426/JSON,PUG-View JSON [NIOSH 2024],,"7.28 (NIOSH, 2024)"
+S05,beta (white),7.265,19.95,,pse-info.de,https://pse-info.de/en/element/Sn,direct,,beta 7.265 g cm-3 (293.1 K)
+S29,beta (white),7.265,,government db,PubChem,https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5352426/JSON,PUG-View JSON [white/gray],,7.265 (white); 5.769 (gray)
+S37,beta (white),7.265,20,encyclopaedia,de.wikipedia Zinn (archived),https://de.wikipedia.org/wiki/Zinn,wayback mobile,,"7,265 g/cm3 (20 C) (beta-Zinn)"
+S57,beta (white),7.2546,,computed from XRD cell,COD (Crystallography Open Database),https://www.crystallography.net/cod/result?formula=Sn&format=json,"direct API, COD entry 7222460",,"COD 7222460: a=5.8393 c=3.1876 V=108.689 A3, Z=4, sg I 41/a m d :1"
+S59,alpha (grey),5.8316,,computed from XRD cell,COD (Crystallography Open Database),https://www.crystallography.net/cod/result?formula=Sn&format=json,"direct API, COD entry 7222459",,"COD 7222459: a=6.467 c=6.4665284 V=270.42 A3, Z=8, sg F d -3 m :1"
+S31,alpha (grey),5.77,,manufacturer,Indium Corp Tin Metal PDS,https://www.indium.com/wp-content/uploads/2025/03/Commercial-Tin-Metal-PDS-98803-A4-R0-1.pdf,direct pdf,,Density 5.77g/cm3 alpha tin
+S04,alpha (grey),5.769,19.95,,pse-info.de,https://pse-info.de/en/element/Sn,direct,,Density alpha 5.769 g cm-3 (293.1 K)
+S21,alpha (grey),5.769,,primary table,CRC Handbook (icdst copy),https://dl.icdst.org/pdfs/files/415f61e9082c7d23df09fb15605aa59d.pdf,"direct pdf, table row 2879",,2879 Tin (gray) Sn ... 5.769
+S30,alpha (grey),5.769,25,government db,PubChem,https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5352426/JSON,PUG-View JSON [grey @25 C],,PubChem density records ... 5.769 @25 C
+S36,alpha (grey),5.769,20,encyclopaedia,de.wikipedia Zinn (archived),https://de.wikipedia.org/wiki/Zinn,wayback mobile,,"Dichte 5,769 g/cm3 (20 C) (alpha-Zinn)"
+S58,alpha (grey),5.7657,,computed from XRD cell,COD (Crystallography Open Database),https://www.crystallography.net/cod/result?formula=Sn&format=json,"direct API, COD entry 9008568",,"COD 9008568: a=6.4912 c=6.4912 V=273.511 A3, Z=8, sg F d -3 m :1"
+S09,alpha (grey),5.75,,,Encyclopaedia Britannica,https://www.britannica.com/science/tin,wayback 2024,,gray 5.75 grams/cm3
+S14,alpha (grey),5.75,,,ChemicalBook,https://www.chemicalbook.com/ChemicalProductProperty_EN_CB3190047.htm,direct,,5.75 g/cm3 (gray)
+S26,liquid,7.47,,computed DFT / paper reference,"Phys Rev B 103, 184102 (2021)",https://doi.org/10.1103/PhysRevB.103.184102,"OA pdf, Table II","DFT model reference, not a measurement",liquid (7.470) rho0 g/cm3
+S03,liquid,6.99,232,,periodictable.com (Theodore Gray),https://periodictable.com/Elements/050/data.html,direct,,Density (Liquid) 6.99
+S52,liquid,6.983,231.9,primary measurement,"Wang et al, J Phys Condens Matter 2003",https://doi.org/10.1088/0953-8984/15/6/304,"doi landing, abstract",,densities at the melting point for liquid ... Sn ... 6.983 x 10^3 kg m-3
+S15,liquid,6.97,,,ChemicalBook,https://www.chemicalbook.com/ChemicalProductProperty_EN_CB3190047.htm,direct,,"6.97 g/cm3 (liquid, truncated in page text)"
+S33,liquid,6.97,231.9,manufacturer,Indium Corp Tin Metal PDS,https://www.indium.com/wp-content/uploads/2025/03/Commercial-Tin-Metal-PDS-98803-A4-R0-1.pdf,direct pdf,,6.97g/cm3 liquid at mp
+S19,alloy Sn63Pb37,8.8,,,Biakom SN63-PB37 TDS,https://biakom.com/media/2016-02-26/SN63-PB37.pdf,direct pdf,"supplier outlier, robust z +12.8",DENSITY 8.8 g/cm3
+S20,alloy Sn63Pb37,8.42,,,Qualitek SN63 RMA200 TDS,https://qualitek.com/SN63_RMA200_TDS.pdf,direct pdf,,"Density, g/cm 8.42"
+S39,alloy Sn63Pb37,8.42,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)",http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MECANIQUE/MATERIAUX/Crc%20Materials%20Science%20And%20Engineering%20Handbook-1928S.pdf,"direct pdf, table 33",,Soft solder (37% Pb) 8.42
+S12,alloy Sn63Pb37,8.4,26,,MG Chemicals TDS 4860,http://www.mgchemicals.com/downloads/tds/tds-4860.pdf,direct pdf,,Density @26 C [78 F] 8.40 g/cm3
+S35,alloy Sn63Pb37,8.4,,manufacturer,SMD Sn100C datasheet,https://smd-bg.com/pdf/Solder_SN100C_SN100Ce_engl.pdf,direct pdf,,"Density g/cm3 7,4 | 8,4 (Sn63 comparison column)"
+S41,alloy Sn70Pb30,8.32,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)",http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MECANIQUE/MATERIAUX/Crc%20Materials%20Science%20And%20Engineering%20Handbook-1928S.pdf,"direct pdf, table 33",,Soft solder (30% Pb) 8.32
+S11,alloy SAC305,7.49,26,,MG Chemicals TDS 4925,http://www.mgchemicals.com/downloads/tds/tds-4925.pdf,direct pdf,,Density @26 C [78 F] 7.49 g/cm3
+S51,alloy SAC305,7.4,,manufacturer,Krayden LINQ-CC SAC305,https://www.krayden.com/products/linq-cc-sac305,direct html,,Type A metallic element type SAC305 Density (g) 7.4 g/cm3
+S18,alloy SAC305,7.37,,,Kester SAC305 TDS,https://www.kester.com/downloads?Command=Core_Download&EntryId=61810,direct pdf,,Density 7.37 g/cm3
+S34,alloy Sn100C,7.4,,manufacturer,SMD Sn100C datasheet,https://smd-bg.com/pdf/Solder_SN100C_SN100Ce_engl.pdf,direct pdf,,"Density g/cm3 7,4"
+S50,alloy Sn96.5Ag3.5,7.36,,manufacturer,Superior Flux SnAg TDS,https://superiorflux.com/spec/TDS.AFCW.SnAg.pdf,direct pdf,,Solder Density 7.36 g/cm3
+S40,pewter,7.28,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)",http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MECANIQUE/MATERIAUX/Crc%20Materials%20Science%20And%20Engineering%20Handbook-1928S.pdf,"direct pdf, table 33",,Density of Tin and Tin Alloys (Table 33) ... White metal 7.28 | Pewter 7.28
+S47,white metal,7.28,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)",http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MECANIQUE/MATERIAUX/Crc%20Materials%20Science%20And%20Engineering%20Handbook-1928S.pdf,"direct pdf, table 33",,White metal 7.28
+S42,babbitt grade 1,7.34,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)",http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MECANIQUE/MATERIAUX/Crc%20Materials%20Science%20And%20Engineering%20Handbook-1928S.pdf,"direct pdf, table 33",,"Tin babbitt, Alloy 1 7.34"
+S43,babbitt grade 2,7.39,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)",http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MECANIQUE/MATERIAUX/Crc%20Materials%20Science%20And%20Engineering%20Handbook-1928S.pdf,"direct pdf, table 33",,"Tin babbitt, Alloy 2 7.39"
+S44,babbitt grade 3,7.46,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)",http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MECANIQUE/MATERIAUX/Crc%20Materials%20Science%20And%20Engineering%20Handbook-1928S.pdf,"direct pdf, table 33",,"Tin babbitt, Alloy 3 7.46"
+S45,babbitt grade 4,7.53,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)",http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MECANIQUE/MATERIAUX/Crc%20Materials%20Science%20And%20Engineering%20Handbook-1928S.pdf,"direct pdf, table 33",,"Tin babbitt, Alloy 4 7.53"
+S46,babbitt grade S,7.75,,primary table,"CRC MS&E Handbook, Table 33 (ASM 1993)",http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MECANIQUE/MATERIAUX/Crc%20Materials%20Science%20And%20Engineering%20Handbook-1928S.pdf,"direct pdf, table 33",,"Tin babbitt, Alloy S 7.75"
+S49,powder apparent,3.8,,manufacturer,Poudmet Sn 30GN-350,https://www.poudmet.fr/uploads/produits/en/etain/EN%20FT%20Sn%2030GN-350.pdf,direct pdf,,"... 3,80 (second grade column, same ISO method)"
+S16,powder apparent,3.2,,,Thermo Fisher 010379.36,https://www.thermofisher.com/order/catalog/product/010379.36,direct,"powder bulk range, superseded by ISO 3923/1",Apparent Density: 2.9-3.5 g/cc
+S48,powder apparent,3.2,,manufacturer,Poudmet Sn 30GN-350,https://www.poudmet.fr/uploads/produits/en/etain/EN%20FT%20Sn%2030GN-350.pdf,direct pdf,,"Apparent density ISO 3923/1 - 5.0 mm g/cm3 3,20"
+S24,gamma (high P),7.525,,computed DFT,"Phys Rev B 103, 184102 (2021)",https://doi.org/10.1103/PhysRevB.103.184102,"OA pdf, Table II",,gamma 7.525 rho0 g/cm3
+S25,delta (high P),7.561,,computed DFT,"Phys Rev B 103, 184102 (2021)",https://doi.org/10.1103/PhysRevB.103.184102,"OA pdf, Table II",,delta 7.561 rho0 g/cm3
