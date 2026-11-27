@@ -4,4 +4,5 @@ description: "Tin density from 75 sources on one page: white tin 7.287, grey tin
 image: "https://engreaved.github.io/tin-density/assets/density-at-a-glance.png"
 layout: default
 ---
+{% include dataset-jsonld.html %}
 {% include_relative README.md %}

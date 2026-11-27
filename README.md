@@ -1,28 +1,5 @@
 # Tin density: every source on one page, so you never search twice
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Dataset",
-  "name": "Tin density: every published value with its source line",
-  "description": "75 records from 39 source documents giving the density of tin and tin alloys, each with a verbatim quote and a link to the page it was read from. White tin 7.287, grey tin 5.769, liquid at melting 6.983, Sn63Pb37 8.40 g/cm3.",
-  "url": "https://engreaved.github.io/tin-density/",
-  "isAccessibleForFree": true,
-  "keywords": ["tin density", "density of tin", "white tin", "grey tin", "liquid tin", "solder density", "SAC305", "Sn63Pb37", "babbitt", "pewter"],
-  "variableMeasured": [
-    {"@type": "PropertyValue", "name": "Density of white tin (beta) at 20 C", "value": 7.287, "unitCode": "g/cm3"},
-    {"@type": "PropertyValue", "name": "Density of grey tin (alpha) at 20 C", "value": 5.769, "unitCode": "g/cm3"},
-    {"@type": "PropertyValue", "name": "Density of liquid tin at the melting point", "value": 6.983, "unitCode": "g/cm3"},
-    {"@type": "PropertyValue", "name": "Density of Sn63Pb37 solder", "value": 8.4, "unitCode": "g/cm3"},
-    {"@type": "PropertyValue", "name": "Density of SAC305 solder", "value": 7.4, "unitCode": "g/cm3"}
-  ],
-  "distribution": [
-    {"@type": "DataDownload", "name": "Spreadsheet (xlsx)", "contentUrl": "https://engreaved.github.io/tin-density/DATA/tin-density.xlsx", "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"},
-    {"@type": "DataDownload", "name": "CSV", "contentUrl": "https://engreaved.github.io/tin-density/DATA/tin-density.csv", "encodingFormat": "text/csv"}
-  ]
-}
-</script>
-
 **The gap this fills.** Look up the density of tin and the sources do not agree. 7.265, 7.280, 7.287, 7.289, 7.290, 7.300, 7.310 and 7.336 are all published for the same metal. Some mix the grey and white allotropes, some quote powder bulk density as if it were the metal, one gives indium's value on a tin page. So you check a handbook, get a number, distrust it, check another, and the second disagrees with the first.
 
 This page gathers all of them: **75 records from 39 sources**, each with the line it was read from and a link to that page, so checking it takes one click instead of one afternoon.
